@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1D8D8412156119300DB14D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8D8402156119300DB14D7 /* AppDelegate.swift */; };
+		F1D8D8432156119300DB14D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8D8422156119300DB14D7 /* ViewController.swift */; };
+		F1D8D8462156119300DB14D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D8D8442156119300DB14D7 /* Main.storyboard */; };
+		F1D8D8482156119800DB14D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D8D8472156119800DB14D7 /* Assets.xcassets */; };
+		F1D8D84B2156119800DB14D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D8D8492156119800DB14D7 /* LaunchScreen.storyboard */; };
+		F1D8D8562156119800DB14D7 /* qiitaAPIClientAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8D8552156119800DB14D7 /* qiitaAPIClientAppTests.swift */; };
+		F1D8D8612156119800DB14D7 /* qiitaAPIClientAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D8D8602156119800DB14D7 /* qiitaAPIClientAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1D8D8522156119800DB14D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D8D8352156119300DB14D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D8D83C2156119300DB14D7;
+			remoteInfo = qiitaAPIClientApp;
+		};
+		F1D8D85D2156119800DB14D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1D8D8352156119300DB14D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D8D83C2156119300DB14D7;
+			remoteInfo = qiitaAPIClientApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1D8D83D2156119300DB14D7 /* qiitaAPIClientApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qiitaAPIClientApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D8D8402156119300DB14D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1D8D8422156119300DB14D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1D8D8452156119300DB14D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1D8D8472156119800DB14D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1D8D84A2156119800DB14D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1D8D84C2156119800DB14D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D8D8512156119800DB14D7 /* qiitaAPIClientAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qiitaAPIClientAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D8D8552156119800DB14D7 /* qiitaAPIClientAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qiitaAPIClientAppTests.swift; sourceTree = "<group>"; };
+		F1D8D8572156119800DB14D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D8D85C2156119800DB14D7 /* qiitaAPIClientAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qiitaAPIClientAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1D8D8602156119800DB14D7 /* qiitaAPIClientAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = qiitaAPIClientAppUITests.swift; sourceTree = "<group>"; };
+		F1D8D8622156119800DB14D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1D8D83A2156119300DB14D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D8D84E2156119800DB14D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D8D8592156119800DB14D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1D8D8342156119300DB14D7 = {
+			isa = PBXGroup;
+			children = (
+				F1D8D83F2156119300DB14D7 /* qiitaAPIClientApp */,
+				F1D8D8542156119800DB14D7 /* qiitaAPIClientAppTests */,
+				F1D8D85F2156119800DB14D7 /* qiitaAPIClientAppUITests */,
+				F1D8D83E2156119300DB14D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1D8D83E2156119300DB14D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8D83D2156119300DB14D7 /* qiitaAPIClientApp.app */,
+				F1D8D8512156119800DB14D7 /* qiitaAPIClientAppTests.xctest */,
+				F1D8D85C2156119800DB14D7 /* qiitaAPIClientAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1D8D83F2156119300DB14D7 /* qiitaAPIClientApp */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8D8402156119300DB14D7 /* AppDelegate.swift */,
+				F1D8D8422156119300DB14D7 /* ViewController.swift */,
+				F1D8D8442156119300DB14D7 /* Main.storyboard */,
+				F1D8D8472156119800DB14D7 /* Assets.xcassets */,
+				F1D8D8492156119800DB14D7 /* LaunchScreen.storyboard */,
+				F1D8D84C2156119800DB14D7 /* Info.plist */,
+			);
+			path = qiitaAPIClientApp;
+			sourceTree = "<group>";
+		};
+		F1D8D8542156119800DB14D7 /* qiitaAPIClientAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8D8552156119800DB14D7 /* qiitaAPIClientAppTests.swift */,
+				F1D8D8572156119800DB14D7 /* Info.plist */,
+			);
+			path = qiitaAPIClientAppTests;
+			sourceTree = "<group>";
+		};
+		F1D8D85F2156119800DB14D7 /* qiitaAPIClientAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F1D8D8602156119800DB14D7 /* qiitaAPIClientAppUITests.swift */,
+				F1D8D8622156119800DB14D7 /* Info.plist */,
+			);
+			path = qiitaAPIClientAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1D8D83C2156119300DB14D7 /* qiitaAPIClientApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D8D8652156119800DB14D7 /* Build configuration list for PBXNativeTarget "qiitaAPIClientApp" */;
+			buildPhases = (
+				F1D8D8392156119300DB14D7 /* Sources */,
+				F1D8D83A2156119300DB14D7 /* Frameworks */,
+				F1D8D83B2156119300DB14D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qiitaAPIClientApp;
+			productName = qiitaAPIClientApp;
+			productReference = F1D8D83D2156119300DB14D7 /* qiitaAPIClientApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1D8D8502156119800DB14D7 /* qiitaAPIClientAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D8D8682156119800DB14D7 /* Build configuration list for PBXNativeTarget "qiitaAPIClientAppTests" */;
+			buildPhases = (
+				F1D8D84D2156119800DB14D7 /* Sources */,
+				F1D8D84E2156119800DB14D7 /* Frameworks */,
+				F1D8D84F2156119800DB14D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1D8D8532156119800DB14D7 /* PBXTargetDependency */,
+			);
+			name = qiitaAPIClientAppTests;
+			productName = qiitaAPIClientAppTests;
+			productReference = F1D8D8512156119800DB14D7 /* qiitaAPIClientAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F1D8D85B2156119800DB14D7 /* qiitaAPIClientAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1D8D86B2156119800DB14D7 /* Build configuration list for PBXNativeTarget "qiitaAPIClientAppUITests" */;
+			buildPhases = (
+				F1D8D8582156119800DB14D7 /* Sources */,
+				F1D8D8592156119800DB14D7 /* Frameworks */,
+				F1D8D85A2156119800DB14D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1D8D85E2156119800DB14D7 /* PBXTargetDependency */,
+			);
+			name = qiitaAPIClientAppUITests;
+			productName = qiitaAPIClientAppUITests;
+			productReference = F1D8D85C2156119800DB14D7 /* qiitaAPIClientAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1D8D8352156119300DB14D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Sohei Miyakura";
+				TargetAttributes = {
+					F1D8D83C2156119300DB14D7 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F1D8D8502156119800DB14D7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F1D8D83C2156119300DB14D7;
+					};
+					F1D8D85B2156119800DB14D7 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F1D8D83C2156119300DB14D7;
+					};
+				};
+			};
+			buildConfigurationList = F1D8D8382156119300DB14D7 /* Build configuration list for PBXProject "qiitaAPIClientApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1D8D8342156119300DB14D7;
+			productRefGroup = F1D8D83E2156119300DB14D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1D8D83C2156119300DB14D7 /* qiitaAPIClientApp */,
+				F1D8D8502156119800DB14D7 /* qiitaAPIClientAppTests */,
+				F1D8D85B2156119800DB14D7 /* qiitaAPIClientAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1D8D83B2156119300DB14D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D8D84B2156119800DB14D7 /* LaunchScreen.storyboard in Resources */,
+				F1D8D8482156119800DB14D7 /* Assets.xcassets in Resources */,
+				F1D8D8462156119300DB14D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D8D84F2156119800DB14D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D8D85A2156119800DB14D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1D8D8392156119300DB14D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D8D8432156119300DB14D7 /* ViewController.swift in Sources */,
+				F1D8D8412156119300DB14D7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D8D84D2156119800DB14D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D8D8562156119800DB14D7 /* qiitaAPIClientAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D8D8582156119800DB14D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D8D8612156119800DB14D7 /* qiitaAPIClientAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1D8D8532156119800DB14D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D8D83C2156119300DB14D7 /* qiitaAPIClientApp */;
+			targetProxy = F1D8D8522156119800DB14D7 /* PBXContainerItemProxy */;
+		};
+		F1D8D85E2156119800DB14D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D8D83C2156119300DB14D7 /* qiitaAPIClientApp */;
+			targetProxy = F1D8D85D2156119800DB14D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1D8D8442156119300DB14D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D8D8452156119300DB14D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1D8D8492156119800DB14D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1D8D84A2156119800DB14D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1D8D8632156119800DB14D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1D8D8642156119800DB14D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1D8D8662156119800DB14D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C372GF32VL;
+				INFOPLIST_FILE = qiitaAPIClientApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.venchaa.qiitaAPIClientApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1D8D8672156119800DB14D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C372GF32VL;
+				INFOPLIST_FILE = qiitaAPIClientApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.venchaa.qiitaAPIClientApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F1D8D8692156119800DB14D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C372GF32VL;
+				INFOPLIST_FILE = qiitaAPIClientAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.venchaa.qiitaAPIClientAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qiitaAPIClientApp.app/qiitaAPIClientApp";
+			};
+			name = Debug;
+		};
+		F1D8D86A2156119800DB14D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C372GF32VL;
+				INFOPLIST_FILE = qiitaAPIClientAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.venchaa.qiitaAPIClientAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qiitaAPIClientApp.app/qiitaAPIClientApp";
+			};
+			name = Release;
+		};
+		F1D8D86C2156119800DB14D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C372GF32VL;
+				INFOPLIST_FILE = qiitaAPIClientAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.venchaa.qiitaAPIClientAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = qiitaAPIClientApp;
+			};
+			name = Debug;
+		};
+		F1D8D86D2156119800DB14D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C372GF32VL;
+				INFOPLIST_FILE = qiitaAPIClientAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = me.venchaa.qiitaAPIClientAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = qiitaAPIClientApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1D8D8382156119300DB14D7 /* Build configuration list for PBXProject "qiitaAPIClientApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D8D8632156119800DB14D7 /* Debug */,
+				F1D8D8642156119800DB14D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D8D8652156119800DB14D7 /* Build configuration list for PBXNativeTarget "qiitaAPIClientApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D8D8662156119800DB14D7 /* Debug */,
+				F1D8D8672156119800DB14D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D8D8682156119800DB14D7 /* Build configuration list for PBXNativeTarget "qiitaAPIClientAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D8D8692156119800DB14D7 /* Debug */,
+				F1D8D86A2156119800DB14D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1D8D86B2156119800DB14D7 /* Build configuration list for PBXNativeTarget "qiitaAPIClientAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D8D86C2156119800DB14D7 /* Debug */,
+				F1D8D86D2156119800DB14D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1D8D8352156119300DB14D7 /* Project object */;
+}

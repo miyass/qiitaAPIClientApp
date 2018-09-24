@@ -16,8 +16,6 @@ class QiitaInfoTableViewCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        print("aaaaa")
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

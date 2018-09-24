@@ -20,12 +20,14 @@ class ViewController: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
         
         table.dataSource = self
-        let nib = UINib(nibName: "QiitaInfoTableViewCell", bundle: nil)
-        table.register(nib, forCellReuseIdentifier: "cell")
-        
         getPosts()
         print(postTitle)
         print(postUserName)
+    
+        table.estimatedRowHeight = 200
+        table.rowHeight = UITableViewAutomaticDimension
+        let nib = UINib(nibName: "QiitaInfoTableViewCell", bundle: nil)
+        table.register(nib, forCellReuseIdentifier: "cell")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -42,7 +44,6 @@ class ViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath as IndexPath) as! QiitaInfoTableViewCell
-        
         cell.titleLabel.text! = postTitle[indexPath.row]
         cell.nameLabel.text! = postUserName[indexPath.row]
         
